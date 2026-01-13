@@ -36,7 +36,7 @@ A hands-free cursor control system for accessibility and convenience
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/facial-mouse-controller.git
+git clone https://github.com/kiprutobeauttah/facial-mouse-controller.git
 cd facial-mouse-controller
 
 # Install dependencies
