@@ -1,0 +1,4 @@
+opencv-python>=4.8.0          # Computer vision and image processing
+numpy>=1.24.0                 # Numerical computing and array operations
+pyautogui>=0.9.53            # Mouse and keyboard automation
+dlib>=19.24.0                # Facial landmark detection
