@@ -1,15 +1,16 @@
-# Facial Mouse Controller 🎯
+# Facion - (note: This project is For research not a product)
+
 
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.8.0-green.svg)
 ![dlib](https://img.shields.io/badge/dlib-19.24-orange.svg)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)
 
 **Control your computer cursor using only facial movements**  
 A hands-free cursor control system for accessibility and convenience
+
 
 [Quick Start](#-quick-start) • [Features](#-features) • [Installation](#️-installation) • [Documentation](docs/)
 
@@ -17,26 +18,26 @@ A hands-free cursor control system for accessibility and convenience
 
 ---
 
-## ✨ Features
+## Features
 
-| Feature | Icon | Description | Status |
-|---------|------|-------------|--------|
-| **Face Tracking** | 👁️ | Real-time facial landmark detection | ✅ |
-| **Cursor Control** | 🖱️ | Smooth cursor movement with head motion | ✅ |
-| **Click Detection** | 👁️👁️ | Eye blink detection for mouse clicks | ✅ |
-| **Drag & Drop** | 🎯 | Drag operations via wink patterns | ✅ |
-| **Calibration** | 🎛️ | Personalized movement range setup | ✅ |
-| **GUI Control** | 🖥️ | User-friendly control panel | ✅ |
-| **Visual Feedback** | 📊 | Real-time face tracking visualization | ✅ |
-| **Settings Persistence** | 💾 | Save/load personalized configurations | ✅ |
+| Feature | Description |
+|---------|-------------|
+| **Face Tracking** | Real-time facial landmark detection |
+| **Cursor Control** | Smooth cursor movement with head motion |
+| **Click Detection** | Eye blink detection for mouse clicks | 
+| **Drag & Drop**  | Drag operations via wink patterns | 
+| **Calibration**  | Personalized movement range setup | 
+| **GUI Control** | User-friendly control panel |
+| **Visual Feedback**  | Real-time face tracking visualization |
+| **Settings Persistence**  | Save/load personalized configurations |
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1-Minute Setup
 
 ```bash
 # Clone the repository
-git clone https://github.com/kiprutobeauttah/facial-mouse-controller.git
+git clone https://github.com/kiprutobeauttah/facion.git
 cd facial-mouse-controller
 
 # Install dependencies
@@ -50,11 +51,11 @@ python facial_mouse.py --gui
 ```
 
 ### Prerequisites
-- 🐍 Python 3.8 or higher
-- 📷 Webcam
-- 💻 4GB RAM minimum
+- Python 3.8 or higher
+- Webcam
+- 4GB RAM minimum
 
-## 📊 System Architecture
+## System Architecture
 
 ```mermaid
 graph TB
@@ -82,7 +83,7 @@ graph TB
     style L fill:#f3e5f5
 ```
 
-## ⚙️ Installation
+##  Installation
 
 ### Step-by-Step Setup
 
@@ -111,19 +112,19 @@ Invoke-WebRequest -Uri "http://dlib.net/files/shape_predictor_68_face_landmarks.
 #### 3. Verify Installation
 
 ```bash
-python -c "import cv2, dlib, pyautogui; print('✅ All dependencies installed successfully!')"
+python -c "import cv2, dlib, pyautogui; print(' All dependencies installed successfully!')"
 ```
 
 ### Platform-Specific Notes
 
 | Platform | Installation Notes | Status |
 |----------|-------------------|--------|
-| **Windows** | Direct pip install works | ✅ Full Support |
-| **macOS** | Requires CMake: `brew install cmake` | ✅ Full Support |
-| **Linux** | Install system packages first | ✅ Full Support |
-| **Raspberry Pi** | ARM optimizations available | ⚠️ Experimental |
+| **Windows** | Direct pip install works |  Full Support |
+| **macOS** | Requires CMake: `brew install cmake` |  Full Support |
+| **Linux** | Install system packages first | Full Support |
+| **Raspberry Pi** | ARM optimizations available |  Experimental |
 
-## 🎯 Usage Guide
+## Usage Guide
 
 ### Starting the Application
 
@@ -181,11 +182,11 @@ sequenceDiagram
 | Key | Function | Status Indicator |
 |-----|----------|------------------|
 | `C` | Calibrate | 🔵 Blue calibration box |
-| `P` | Pause/Resume | ⏸️/▶️ Status text changes |
+| `P` | Pause/Resume |  Status text changes |
 | `Q` | Quit | Application closes |
-| `S` | Save settings | 💾 Settings saved message |
+| `S` | Save settings | Settings saved message |
 
-## 🔧 Configuration
+## Configuration
 
 ### Settings Overview
 
@@ -240,7 +241,7 @@ facial-mouse-controller/
 └── 📄 README.md            # This file
 ```
 
-## 🔍 Troubleshooting
+## Troubleshooting
 
 ### Common Issues and Solutions
 
@@ -296,11 +297,7 @@ graph LR
 - Write docstrings for public methods
 - Include tests for new features
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 ### Libraries Used
 - **[OpenCV](https://opencv.org/)** - Computer vision library
@@ -316,9 +313,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <div align="center">
-
-**Made with ❤️ for accessibility and innovation**
-
+    
 [Report Bug](https://github.com/kiprutobeauttah/facion/issues) · 
 [Request Feature](https://github.com/kiprutobeauttah/facion/issues) · 
 [View Changelog](CHANGELOG.md)
