@@ -1,5 +1,6 @@
 # Facion - (note: This project is For research not a product)
 
+![facion-strip](https://github.com/kiprutobeauttah/cdn-8qnlab/blob/main/public/cdn/images/facion-2.png)
 
 <div align="center">
 
