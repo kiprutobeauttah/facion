@@ -32,6 +32,11 @@ A hands-free cursor control system for accessibility and convenience
 | **Visual Feedback**  | Real-time face tracking visualization |
 | **Settings Persistence**  | Save/load personalized configurations |
 
+|            |            |           
+|------------|-----------|
+| <img src ="https://github.com/kiprutobeauttah/cdn-8qnlab/blob/main/public/cdn/images/facion.png" width="500px" height="500px"> | <img src ="https://github.com/kiprutobeauttah/cdn-8qnlab/blob/main/public/cdn/images/3d-face.jpeg" width="500px" height="500px">|
+
+
 ##  Quick Start
 
 ### 1-Minute Setup
@@ -50,6 +55,7 @@ python download_model.py
 # Run the application
 python facial_mouse.py --gui
 ```
+
 
 ### Prerequisites
 - Python 3.8 or higher
