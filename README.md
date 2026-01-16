@@ -49,9 +49,6 @@ cd facial-mouse-controller
 # Install dependencies
 pip install -r requirements.txt
 
-# Download face model
-https://github.com/kiprutobeauttah/facion/blob/main/shape_predictor_68_face_landmarks.dat.bz2
-
 # Run the application
 python main.py --gui
 ```
